@@ -4,6 +4,7 @@ body {
     margin: 0;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    background-image: url("/Users/sergiopacheco/repos/landing_page/background.png");
 }
 
 /*Header*/
@@ -83,13 +84,14 @@ a {
     font-size: 48px;
     font-weight:bolder;
     color: white;
+    margin-bottom: 12px;
 
 }
 
 .content .text1 {
     font-size: 18px;
     color: white;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     font-weight: lighter;
 }
 
@@ -100,12 +102,14 @@ a {
     justify-content: center;
     font-size: 36px;
     padding: 20px;
+    color: white;
 }
 
 .container1 {
     display: flex;
     justify-content: center;
     gap: 40px;
+    background-image: url("/Users/sergiopacheco/repos/landing_page/background.png");
     margin: 50px;
     padding-left: 200px;
     padding-right: 200px;
@@ -124,7 +128,10 @@ a {
 }
 
 .textt{
-    text-align: center;
+    padding: 12px;
+    text-align:center;
+    color: white;
+
 }
 
 .container2 {
@@ -183,15 +190,13 @@ a {
 }
 
 .container3 button {
-    font-family: Roboto, sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    color: white;
-    border: white;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
     border-radius: 8px;
-    background:black;
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
 }
 
 .footer {
@@ -203,7 +208,7 @@ a {
 }
 
 .footer .text {
-    padding: 30px;
+    padding: 20px;
 }
 
 
